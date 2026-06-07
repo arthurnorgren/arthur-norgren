@@ -298,6 +298,15 @@ h1 {
   margin-top: 24px;
 }
 
+.about-highlight {
+  display: block;
+  margin: 22px 0;
+  color: var(--ink);
+  font-size: clamp(24px, 2.4vw, 34px);
+  font-weight: 520;
+  line-height: 1.16;
+}
+
 .about-figure {
   width: min(100%, 520px);
   margin: 34px 0 38px;
@@ -369,11 +378,6 @@ cite {
   display: grid;
   gap: 28px;
   color: var(--muted);
-}
-
-.article-aside p {
-  margin-bottom: 0;
-  font-size: 14px;
 }
 
 .article-aside blockquote,
