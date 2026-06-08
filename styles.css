@@ -214,6 +214,14 @@ h1 {
   font-weight: 700;
 }
 
+.project-status {
+  justify-self: end;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 650;
+  text-align: right;
+}
+
 .split {
   display: grid;
   grid-template-columns: minmax(260px, 0.38fr) minmax(0, 0.62fr);
@@ -406,6 +414,27 @@ cite {
 
 .article-body p + p {
   margin-top: 24px;
+}
+
+.article-body h2 {
+  margin: 54px 0 18px;
+  color: var(--ink);
+  font-size: clamp(30px, 3.6vw, 48px);
+  line-height: 1.04;
+  letter-spacing: 0;
+}
+
+.article-note {
+  margin-bottom: 42px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.article-note p {
+  color: var(--ink);
+  font-size: clamp(18px, 1.8vw, 20px);
+  line-height: 1.52;
 }
 
 .pull-quote {
